@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verify Age</h1> 
+    </header>
+    <section>        
+        <div>
+            <p>Year of birth
+                <input type="number" name="txtyear" id="txtyear" min="0"> <!--Box of Text-->
+            </p>
+            <p>Sex:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculine</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminine</label>
+            </p>
+            <p>
+                <input type="button" value="Verify" onclick='verify()'>
+            </p>
+            
+        </div>
+        <div id="res">
+            Fill in the information above to see the Result!
+        </div>
+    </section>
+    <footer>    
+        <p>&copy; Guideveloper</p>
+    </footer>   
+    <script src="script.js"></script> 
+</body>
+</html>
